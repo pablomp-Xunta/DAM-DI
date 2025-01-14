@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> <?import javafx.geometry.*?> <?import javafx.scene.control.*?> <?import javafx.scene.layout.*?>
+<VBox spacing="10" xmlns="http://javafx.com/javafx/21.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="proba.ControladorLogin">
+    <Label style="-fx-font-size: 24" text="LOGIN DE USUARIO" />
+    <Label text="Usuario:" />
+    <TextField fx:id="cUsuario" />
+    <Label text="Contraseña:" />
+    <PasswordField fx:id="cClave" />
+    <Button onAction="#iniciarSesion" text="Iniciar Sesión" />
+    <padding>
+        <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+    </padding>
+</VBox>
+<!-- https://stackoverflow.com/questions/47015879/javafx-purpose-of-xmlnsfx-->
